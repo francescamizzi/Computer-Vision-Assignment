@@ -9,7 +9,6 @@ def ObjectBlender(s1, FilteredExObject):
     cv2.waitKey(0)
     return blendedObject
 
-
 img = cv2.imread("Images/1_colour.jpeg", 1)
 object = cv2.imread("Images\souvenirs_no_3_colour_mask_2_mask.png", 1)
 blended = ObjectBlender(img, object)
