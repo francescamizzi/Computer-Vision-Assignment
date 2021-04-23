@@ -1,0 +1,3 @@
+[submodule "COTSDataset"]
+	path = COTSDataset
+	url = https://github.com/dylanseychell/COTSDataset/
